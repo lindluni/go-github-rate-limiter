@@ -1,5 +1,7 @@
 #
-# SPDX-License-Identifier: Apache-2.0
+#  Copyright Brett Logan. All Rights Reserved.
+#
+#  SPDX-License-Identifier: Apache-2.0
 #
 
 GOTOOLS = counterfeiter
