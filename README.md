@@ -4,6 +4,16 @@
 library. It is designed to allow your application to gracefully hand hitting the 
 [GitHub API rate limit](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api).
 
+## Features
+
+When a call to the GitHub API triggers a rate limit event, the library will wait for the rate limit to reset before
+retrying the request.
+
+## Limitations
+
+`go-github-rate-limiter` does not support the GitHub GraphQL API. `go-github-rate-limiter` will only handle rate limits
+triggered by the REST API.
+
 ## Installation
 
 ```shell
