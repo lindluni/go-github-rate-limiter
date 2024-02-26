@@ -1,13 +1,14 @@
 package limiter_test
 
 import (
-	"github.com/lindluni/go-github-rate-limiter/limiter"
-	"github.com/lindluni/go-github-rate-limiter/limiter/mocks"
-	"github.com/stretchr/testify/assert"
 	"net/http"
 	"strconv"
 	"testing"
 	"time"
+
+	"github.com/lindluni/go-github-rate-limiter/limiter"
+	"github.com/lindluni/go-github-rate-limiter/limiter/mocks"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestRoundTrip(t *testing.T) {
